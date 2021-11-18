@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Oswald&display=swap');
 
 body{
     background: rgb(2,0,36);
@@ -26,3 +26,21 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,45,82,1) 0%, rgba(
 #reviews{
     margin-top: 5%;
 }
+
+.jumbotron{
+    font-family: 'Oswald', sans-serif;
+    background-position: 100%;   
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1587731556938-38755b4803a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1178&q=80");
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
