@@ -47,3 +47,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,45,82,1) 0%, rgba(
 /* .container .tracklist{
     display: hidden;
 } */
+
+
+#Albums > .card :hover .container .tracklist{
+
+     display: block;
+}
